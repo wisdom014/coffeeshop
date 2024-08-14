@@ -884,7 +884,7 @@ span {
 }
 
 .container button {
-  font-size: 0.84rem;
+  font-size: 0.8rem;
   /* change */
 }
 
@@ -1062,7 +1062,7 @@ span {
       /* change2 */
     }
   .container button {
-      font-size: 1.4rem;
+      font-size: 0.91rem;
       /* change */
     }
   
@@ -1091,6 +1091,4 @@ span {
       width: 10px;
       /* change */
     }
- }
- @media screen and (min-width: 1360px) {
  }
