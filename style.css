@@ -16,7 +16,6 @@ nav {
   background-color: #fff; /* Ensure background color is set */
   z-index: 1000; /* Keep it above other content */
 }
-
 header {
  background-color: white;
 -moz-box-shadow: 0px 7px 50px -25px rgba(0, 0, 0, 0.57);
@@ -90,7 +89,7 @@ h1, h2, h3 {
       font-family: "Tangerine", cursive;
         font-weight: 700;
         font-style: normal;
- font-size: 1.4rem; /* change */
+ font-size: 1.7rem; /* change2 */
  text-transform: capitalize;
  text-decoration: underline double 1px #35a2c6; /* change */
  color: white;
@@ -100,7 +99,10 @@ padding-bottom: 10px;
  text-align: center;
  padding-top: 57px;
 }
-
+#about p {
+  font-size: 10px; /* change2 */
+  font-weight: 500; /* change2 */
+}
 /* BUTTON */
 .buttons {
   text-align: center;
@@ -149,8 +151,8 @@ padding-bottom: 10px;
 }
 /* MENU */
 .card .container button {
-  font-size: 0.5rem;/* change */
-  width: 66px;
+  font-size: 0.4rem;/* change2 */
+  width: fit-content;
 }
 .fa-cart-shopping {
   width: 10px; /* change */
@@ -167,7 +169,6 @@ padding-bottom: 10px;
   transition: all 0.4s ease;
   text-align: center;
 }
-
 .card .container:hover:before {
   background: linear-gradient(90deg, #03a9f4, #f441a5, rgb(120, 115, 115));
   filter: blur(1.2em);
@@ -807,10 +808,29 @@ span {
   margin: 1% 5%;
   /* change */
 }
+#about p {
+  font-size: 11px;
+  /* change2 */
+  font-weight: 500;
+  /* change2 */
+}
+.card .container button {
+  font-size: 0.4rem;
+  /* change2 */
+}
+h1,h2,h3 {
+  font-size: 1.8rem;
+}
  }
  @media screen and (min-width: 768px) {
+  #about p {
+      font-size: 15px;
+      /* change2 */
+      font-weight: 500;
+      /* change2 */
+    }
   .btn {
-      font-size: 0.7rem;
+      font-size: 0.9rem;
       /* change */
       padding: 0.6rem 1.1rem;
       /* change */
@@ -836,7 +856,7 @@ span {
 h1,
 h2,
 h3 {
-  font-size: 1.7rem;
+  font-size: 2.1rem;
   /* change */
   text-decoration: underline double 2px #35a2c6;
   /* change */
@@ -1035,8 +1055,14 @@ span {
     }
  }
  @media screen and (min-width: 1240px) {
+  #about p {
+      font-size: 18px;
+      /* change2 */
+      font-weight: 500;
+      /* change2 */
+    }
   .container button {
-      font-size: 1rem;
+      font-size: 1.4rem;
       /* change */
     }
   
